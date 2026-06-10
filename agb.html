@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AGB | Shinyflares</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#070B14;--surface:#0F1525;--surface2:#161E33;--accent:#00C896;--text:#F0F4FF;--muted:#8892AA;--border:rgba(255,255,255,0.07);--radius-lg:14px}
+html,body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;min-height:100vh;line-height:1.7}
+a{color:var(--accent);text-decoration:none}
+a:hover{opacity:0.8}
+.sf-nav{position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:60px;background:rgba(7,11,20,0.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.sf-nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.sf-nav-logo-dot{width:9px;height:9px;border-radius:50%;background:var(--accent);display:inline-block}
+.sf-nav-logo-text{font-family:'Syne',sans-serif;font-weight:800;font-size:1.15rem;color:var(--text);letter-spacing:-0.02em}
+.sf-nav-link{color:var(--muted);font-size:0.875rem;text-decoration:none}
+.sf-nav-link:hover{color:var(--text)}
+main{max-width:760px;margin:0 auto;padding:4rem 2rem}
+h1{font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--text);letter-spacing:-0.03em;margin-bottom:0.5rem}
+.subtitle{color:var(--muted);font-size:0.9rem;margin-bottom:3rem;display:block}
+h2{font-family:'Syne',sans-serif;font-size:1.15rem;font-weight:700;color:var(--text);margin:2.5rem 0 0.75rem}
+p{color:var(--muted);font-size:0.95rem;margin-bottom:0.75rem}
+ul{color:var(--muted);font-size:0.95rem;padding-left:1.5rem;margin-bottom:0.75rem}
+ul li{margin-bottom:0.3rem}
+.sf-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:2rem;margin-bottom:1.5rem}
+.sf-highlight{background:var(--surface2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1rem}
+.sf-highlight p{margin:0;font-size:0.9rem}
+.sf-placeholder{background:var(--surface2);border:1px dashed rgba(255,255,255,0.12);border-radius:8px;padding:1rem 1.2rem;color:var(--muted);font-size:0.85rem;font-style:italic;margin-bottom:0.75rem}
+footer{border-top:1px solid var(--border);padding:1.5rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.sf-footer-copy{font-size:0.78rem;color:#5A6480}
+.sf-footer-links{display:flex;gap:1.5rem;list-style:none}
+.sf-footer-links a{font-size:0.78rem;color:#5A6480}
+.sf-footer-links a:hover{color:var(--muted)}
+@media(max-width:640px){main{padding:2rem 1rem}}
+</style>
+</head>
+<body>
+
+<nav class="sf-nav">
+  <a href="/" class="sf-nav-brand">
+    <span class="sf-nav-logo-dot"></span>
+    <span class="sf-nav-logo-text">Shinyflares</span>
+  </a>
+  <a href="/" class="sf-nav-link">← Zurück</a>
+</nav>
+
+<main>
+  <h1>Allgemeine Geschäftsbedingungen</h1>
+  <span class="subtitle">Stand: Juni 2026 · Shinyflares UG (haftungsbeschränkt)</span>
+
+  <div class="sf-card">
+    <div class="sf-highlight">
+      <p>Diese AGB regeln die Nutzung der Shinyflares-Plattform durch gemeinnützige Vereine und Organisationen (nachfolgend „Verein"). Mit der Registrierung akzeptiert der Verein diese Bedingungen.</p>
+    </div>
+
+    <h2>§ 1 Geltungsbereich</h2>
+    <p>Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge zwischen der Shinyflares UG (haftungsbeschränkt), Münster (nachfolgend „Shinyflares") und gemeinnützigen Vereinen und Organisationen (nachfolgend „Verein"), die die Shinyflares-Plattform zur Abwicklung von Spendenaktionen nutzen.</p>
+    <p>Abweichende Bedingungen des Vereins gelten nur, wenn Shinyflares diesen ausdrücklich schriftlich zugestimmt hat.</p>
+
+    <h2>§ 2 Leistungsbeschreibung</h2>
+    <p>Shinyflares stellt eine technische Plattform bereit, die es gemeinnützigen Vereinen ermöglicht:</p>
+    <ul>
+      <li>Spendenaktionen als symbolische Artikel zu präsentieren</li>
+      <li>Spenden über Stripe direkt entgegenzunehmen</li>
+      <li>Automatisierte Spendenquittungen (Zuwendungsbestätigungen) zu erstellen und zu versenden</li>
+      <li>Spendenstatistiken einzusehen</li>
+    </ul>
+    <p>Shinyflares ist kein Zahlungsdienstleister im Sinne des ZAG. Die Zahlungsabwicklung erfolgt ausschließlich über Stripe Payments Europe Ltd. Spenden fließen direkt an das Stripe-Konto des Vereins.</p>
+
+    <h2>§ 3 Registrierung und Zulassung</h2>
+    <p>Die Nutzung der Plattform setzt eine erfolgreiche Registrierung voraus. Shinyflares behält sich das Recht vor, Registrierungen ohne Angabe von Gründen abzulehnen.</p>
+    <p>Voraussetzungen für die Zulassung:</p>
+    <ul>
+      <li>Gemeinnützigkeit gemäß §§ 51 ff. AO (Freistellungsbescheid erforderlich)</li>
+      <li>Rechtssitz in Deutschland</li>
+      <li>Vollständige und wahrheitsgemäße Angaben im Onboarding-Prozess</li>
+      <li>Abschluss eines Stripe Express Accounts</li>
+      <li>Erteilung eines SEPA-Lastschriftmandats für die Provisionszahlung</li>
+    </ul>
+
+    <h2>§ 4 Provision und Abrechnung</h2>
+    <p><strong>Basis-Plan:</strong> Shinyflares erhebt eine Provision von 10 % auf jede vermittelte Spende. Die Provision wird monatlich per SEPA-Lastschrift eingezogen.</p>
+    <p><strong>Pro-Plan:</strong> Reduzierte Provision von 5 % bei einer monatlichen Grundgebühr von 29 € netto. Details auf Anfrage.</p>
+    <p>Die Provision versteht sich zzgl. der gesetzlichen Umsatzsteuer, sofern Shinyflares umsatzsteuerpflichtig ist.</p>
+    <p>Shinyflares stellt monatliche Abrechnungen per E-Mail zur Verfügung.</p>
+
+    <h2>§ 5 Pflichten des Vereins</h2>
+    <p>Der Verein verpflichtet sich:</p>
+    <ul>
+      <li>Ausschließlich wahrheitsgemäße Angaben zu machen</li>
+      <li>Den Freistellungsbescheid aktuell zu halten und Änderungen unverzüglich mitzuteilen</li>
+      <li>Spendengelder ausschließlich für den angegebenen Verwendungszweck einzusetzen</li>
+      <li>Die gesetzlichen Vorschriften für Zuwendungsbestätigungen einzuhalten</li>
+      <li>Das SEPA-Lastschriftmandat aufrechtzuerhalten</li>
+      <li>Zugangsdaten sicher zu verwahren und Missbrauch unverzüglich zu melden</li>
+    </ul>
+
+    <h2>§ 6 Spendenquittungen</h2>
+    <p>Shinyflares erstellt automatisierte Zuwendungsbestätigungen im Namen des Vereins. Der Verein ist für die inhaltliche Richtigkeit der hinterlegten Angaben (Vereinszweck, Steuernummer etc.) verantwortlich. Shinyflares übernimmt keine Haftung für steuerrechtliche Konsequenzen aus fehlerhaften Angaben des Vereins.</p>
+
+    <h2>§ 7 Laufzeit und Kündigung</h2>
+    <p>Der Vertrag läuft auf unbestimmte Zeit. Beide Parteien können den Vertrag mit einer Frist von 30 Tagen zum Monatsende kündigen.</p>
+    <p>Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt. Ein wichtiger Grund für Shinyflares liegt insbesondere vor, wenn:</p>
+    <ul>
+      <li>Der Verein falsche Angaben gemacht hat</li>
+      <li>Die Gemeinnützigkeit aberkannt wurde</li>
+      <li>Spendengelder zweckwidrig verwendet werden</li>
+      <li>Das SEPA-Lastschriftmandat widerrufen wird</li>
+    </ul>
+
+    <h2>§ 8 Haftung</h2>
+    <p>Shinyflares haftet unbeschränkt für Vorsatz und grobe Fahrlässigkeit sowie für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit.</p>
+    <p>Bei leichter Fahrlässigkeit haftet Shinyflares nur bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten), beschränkt auf den vorhersehbaren, vertragstypischen Schaden.</p>
+    <p>Shinyflares haftet nicht für Störungen der Stripe-Plattform oder anderer Drittanbieter.</p>
+
+    <h2>§ 9 Datenschutz</h2>
+    <p>Die Verarbeitung personenbezogener Daten richtet sich nach unserer <a href="/datenschutz">Datenschutzerklärung</a>. Shinyflares und der Verein schließen bei Bedarf einen Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO.</p>
+
+    <h2>§ 10 Änderungen der AGB</h2>
+    <p>Shinyflares behält sich vor, diese AGB mit einer Ankündigungsfrist von 30 Tagen zu ändern. Änderungen werden per E-Mail mitgeteilt. Widerspricht der Verein nicht innerhalb von 30 Tagen nach Zugang der Mitteilung, gelten die geänderten AGB als akzeptiert.</p>
+
+    <h2>§ 11 Schlussbestimmungen</h2>
+    <p>Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand ist Münster, soweit der Verein Kaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen ist.</p>
+    <p>Sollten einzelne Bestimmungen dieser AGB unwirksam sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.</p>
+
+    <div class="sf-placeholder" style="margin-top:2rem">
+      ⚠️ Platzhalter: Diese AGB sind ein Entwurf und müssen von einem Rechtsanwalt geprüft werden, bevor sie gegenüber Vereinen verwendet werden.
+    </div>
+  </div>
+</main>
+
+<footer>
+  <span class="sf-footer-copy">© 2026 Shinyflares UG · Münster</span>
+  <ul class="sf-footer-links">
+    <li><a href="/impressum">Impressum</a></li>
+    <li><a href="/datenschutz">Datenschutz</a></li>
+    <li><a href="/agb">AGB</a></li>
+    <li><a href="mailto:info@shinyflares.com">Kontakt</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>
