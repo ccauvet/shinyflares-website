@@ -82,6 +82,19 @@
 
     .nav-links a:hover { color: var(--text); }
 
+    .nav-login {
+      background: transparent;
+      color: var(--muted) !important;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.18);
+      font-weight: 600 !important;
+      font-size: 0.875rem !important;
+      transition: color 0.2s, border-color 0.2s !important;
+    }
+
+    .nav-login:hover { color: var(--white) !important; border-color: rgba(255,255,255,0.4); }
+
     .nav-cta {
       background: var(--accent);
       color: #000 !important;
@@ -644,6 +657,7 @@
     <li><a href="#so-funktionierts">So funktioniert's</a></li>
     <li><a href="#features">Funktionen</a></li>
     <li><a href="#preise">Preise</a></li>
+    <li><a href="/my/login" class="nav-login">Vereins-Login</a></li>
     <li><a href="/shinyflares/onboarding/schritt1" class="nav-cta">Jetzt starten</a></li>
   </ul>
 </nav>
