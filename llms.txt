@@ -1,0 +1,25 @@
+# Shinyflares
+
+> Shinyflares ist eine B2B-SaaS-Spendenplattform für deutsche gemeinnützige Vereine. Vereine präsentieren Spendenaktionen als symbolische Shop-Artikel. 100 % jeder Spende fließt über Stripe Connect direkt auf das Konto des Vereins; Shinyflares erhält dafür eine separate, monatlich per SEPA eingezogene Provision. Für jede Spende wird automatisch eine Zuwendungsbestätigung erstellt.
+
+Shinyflares richtet sich an gemeinnützige Vereine und Organisationen mit Sitz in Deutschland und gültigem Freistellungsbescheid. Die Einrichtung erfolgt ohne IT-Kenntnisse über einen geführten Onboarding-Assistenten. Betreiber ist die Shinyflares UG (haftungsbeschränkt) in Münster, Nordrhein-Westfalen. Die Zahlungsabwicklung übernimmt Stripe; technisch notwendige Daten werden DSGVO-konform verarbeitet (Server in Deutschland).
+
+## Hauptseiten
+- [Startseite](https://shinyflares.com/): Überblick über die Plattform, Funktionsweise in drei Schritten, Funktionen und Preise.
+- [FAQ](https://shinyflares.com/faq): Häufige Fragen zu Kosten, Auszahlung, Spendenquittungen, Voraussetzungen und der Abgrenzung zu einfachen Spenden-Buttons.
+
+## Produkt & Preise
+- Basis-Plan: 0 € pro Monat, 10 % Provision je vermittelter Spende, bis zu 3 Spendenprojekte, automatische Quittungen, Stripe-Direktauszahlung, Vereins-Dashboard.
+- Pro-Plan: 29 € pro Monat, 5 % Provision je vermittelter Spende, unbegrenzte Projekte, erweiterte Statistiken, Prioritäts-Support.
+
+## Loslegen
+- [Verein registrieren (Onboarding)](https://shinyflares.com/shinyflares/onboarding/schritt1): Geführte Registrierung inkl. Upload des Freistellungsbescheids und Stripe-Anbindung.
+- [Vereins-Login](https://shinyflares.com/my/login): Zugang zum Vereins-Dashboard zum Anlegen und Verwalten von Spendenprojekten.
+
+## Rechtliches
+- [Impressum](https://shinyflares.com/impressum): Anbieterkennzeichnung gemäß § 5 TMG.
+- [Datenschutz](https://shinyflares.com/datenschutz): Datenverarbeitung nach DSGVO und BDSG, Rechtsgrundlagen und Betroffenenrechte.
+- [AGB](https://shinyflares.com/agb): Geschäftsbedingungen für die Nutzung der Plattform durch Vereine.
+
+## Kontakt
+- E-Mail: info@shinyflares.com

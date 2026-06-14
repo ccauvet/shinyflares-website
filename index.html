@@ -4,6 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shinyflares — Spenden neu gedacht</title>
+  <meta name="description" content="Shinyflares ist die Spendenplattform für gemeinnützige Vereine in Deutschland: symbolische Spendenshops, 100 % der Spende direkt per Stripe an den Verein und automatische Spendenquittungen." />
+  <link rel="canonical" href="https://shinyflares.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Shinyflares" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:title" content="Shinyflares — Spenden neu gedacht" />
+  <meta property="og:description" content="Die Spendenplattform für gemeinnützige Vereine: symbolische Spendenshops, 100 % der Spende direkt per Stripe an den Verein, automatische Spendenquittungen." />
+  <meta property="og:url" content="https://shinyflares.com/" />
+  <meta property="og:image" content="https://shinyflares.com/assets/img/og-default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <!-- Zentrale Design-Tokens (Single Source of Truth, geteilt mit Odoo-Shop) -->
   <link rel="stylesheet" href="/assets/css/brand-tokens.css" />
@@ -633,6 +648,99 @@
       .testimonial:last-child { border-radius: 0 0 12px 12px; }
     }
   </style>
+
+  <!-- Strukturierte Daten -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Shinyflares UG (haftungsbeschränkt)",
+    "alternateName": "Shinyflares",
+    "url": "https://shinyflares.com/",
+    "image": "https://shinyflares.com/assets/img/og-default.png",
+    "email": "info@shinyflares.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Münster",
+      "addressRegion": "Nordrhein-Westfalen",
+      "addressCountry": "DE"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@shinyflares.com",
+      "contactType": "customer support",
+      "areaServed": "DE",
+      "availableLanguage": "de"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Shinyflares",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "url": "https://shinyflares.com/",
+    "description": "Spendenplattform für gemeinnützige Vereine in Deutschland: symbolische Spendenshops, direkte Auszahlung per Stripe Connect an den Verein und automatische Zuwendungsbestätigungen.",
+    "inLanguage": "de",
+    "provider": {
+      "@type": "Organization",
+      "name": "Shinyflares UG (haftungsbeschränkt)",
+      "url": "https://shinyflares.com/"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Basis",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "description": "0 € pro Monat zzgl. 10 % Provision je vermittelter Spende, bis zu 3 Spendenprojekte."
+      },
+      {
+        "@type": "Offer",
+        "name": "Pro",
+        "price": "29",
+        "priceCurrency": "EUR",
+        "description": "29 € pro Monat zzgl. 5 % Provision je vermittelter Spende, unbegrenzte Projekte und erweiterte Statistiken."
+      }
+    ]
+  }
+  </script>
+
+  <!-- HowTo: Text wortgleich mit dem sichtbaren Abschnitt "In drei Schritten live gehen" -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "In drei Schritten live gehen",
+    "description": "Kein technisches Vorwissen nötig. Vom Antrag bis zur ersten Spende dauert es weniger als einen Tag.",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Verein registrieren",
+        "text": "Füllt das Online-Formular aus und ladet eure Freistellungsbescheid hoch. Wir prüfen und geben euch frei.",
+        "url": "https://shinyflares.com/#so-funktionierts"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Projekte anlegen",
+        "text": "Erstellt symbolische Spendenartikel in eurem persönlichen Dashboard — mit Bild, Beschreibung und Wunschbetrag.",
+        "url": "https://shinyflares.com/#so-funktionierts"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Spenden empfangen",
+        "text": "Spenden fließen direkt auf euer Konto via Stripe. Spendenquittungen werden automatisch ausgestellt.",
+        "url": "https://shinyflares.com/#so-funktionierts"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
