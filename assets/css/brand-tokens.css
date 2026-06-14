@@ -1,0 +1,26 @@
+/* ============================================================
+   Shinyflares — Zentrale Design-Tokens (Single Source of Truth)
+   Wird von den statischen Seiten UND vom Odoo-Shop eingebunden.
+   Farbe/Font hier ändern → wirkt überall.
+   ============================================================ */
+:root {
+    /* Flächen / Hintergründe (Dark-Theme der Marketing-Seiten) */
+    --bg: #070B14;
+    --surface: #0F1525;
+    --surface2: #161E33;
+
+    /* Marken-Akzent */
+    --accent: #00C896;        /* Füllungen, Buttons, Logo-Dot */
+    --accent-deep: #00936e;   /* Akzent-Text auf hellem Grund (besserer Kontrast) */
+    --accent-dim: rgba(0, 200, 150, 0.12);
+    --accent-dim2: rgba(0, 200, 150, 0.06);
+
+    /* Text */
+    --text: #F0F4FF;
+    --muted: #8892AA;
+    --white: #ffffff;
+
+    /* Linien / Radien */
+    --border: rgba(255, 255, 255, 0.07);
+    --radius-lg: 14px;
+}
